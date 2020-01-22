@@ -13,23 +13,24 @@ in the file movies.json in the repository data.
 * Logging : This packages for display different message 
 
 ## Installation
-With IDE : 
+### Command Universal
 ```
 - git clone git@github.com:ConteAlexandre/CineClub.git
 - cd CineClub
-- Start IDE : (PyCharm, Visual Studio Code, ect)
-- Warning : For interpretor Python, you use that who is in the repository /env/bin/python3.7
-- Then run the file app.py
-- Now, have fun
+- write command source env/bin/activate
+- pip install -r packages.txt 
 ```
+#### With IDE
+* After start the IDE
+* Run the file app.py with interpreter in the folder env/bin/
+* And now you have launch application, have fun
 
-Without IDE :
+#### Without IDE
+Start just one command in the terminal which is in the repository of the project :
 ```
-- git clone git@github.com:ConteAlexandre/CineClub.git
-- cd CineClub
-- In the console, you write python3 app.py
-- Now, have fun
+- python3 app.py
 ```
+* And now you have launch application, have fun
 
 ## Conclusion
 This project has been completed with a course Udemy
