@@ -17,6 +17,7 @@ in the file movies.json in the repository data.
 ```
 - git clone git@github.com:ConteAlexandre/CineClub.git
 - cd CineClub
+- type command python3 -m venv env
 - write command source env/bin/activate
 - pip install -r packages.txt 
 ```
